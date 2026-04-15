@@ -8,4 +8,4 @@ jobs:
     steps:
       
 name: Mostrar mensaje
-      run: echo "Se hizo un push al repositorio"
+      run:"Se hizo un push al repositorio"

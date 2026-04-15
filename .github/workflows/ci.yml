@@ -6,6 +6,5 @@ jobs:
   saludo:
     runs-on: ubuntu-latest
     steps:
-      
-name: Mostrar mensaje
-      run:"Se hizo un push al repositorio"
+      - name: Mostrar mensaje
+        run: echo "Se hizo un push al repositorio"
